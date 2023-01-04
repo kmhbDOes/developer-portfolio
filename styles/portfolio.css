@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+.textprimary {
+    color: #FD6E0A;
+}
+
+.btnprimary {
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+
+
+}
+
+/* Header and navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    /* why margin didnt work but padding did*/
+}
+
+.navtitle {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.banner {
+    margin: 0px 150px 0px 150px;
+    align-items: center;
+    display: flex;
+}
+
+.bannertitle {
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.bannersubtitle {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.bannerdescription {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* about section */
+.about {
+
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+
+}
+
+.sectiontitle {
+    font-weight: 700;
+    font-size: 35px;
+
+    margin-bottom: 30px;
+}
+
+.bannerdescription {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.aboutinfocontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.anout .infotitle {
+    font-size: 20px;
+    color: #757575;
+}
+
+.infodescription {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
