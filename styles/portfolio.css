@@ -3,6 +3,7 @@
     font-family: 'Open Sans';
 }
 
+
 .textprimary {
     color: #FD6E0A;
 }
@@ -88,6 +89,13 @@ section{
     padding: 130px 150px;
     text-align: center;
 
+}
+
+@media screen and (max-width: 576px){
+    .about{
+        background-color: orangered;
+    }
+    
 }
 
 .sectiontitle {
