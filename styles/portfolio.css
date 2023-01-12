@@ -24,8 +24,7 @@
     background-image: url('../images/header_bg.png'), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
-
-
+    width: 100%;
 }
 
 /* Header and navigation styles */
@@ -74,35 +73,27 @@ nav li {
     margin-bottom: 30px;
 }
 
-main {
-    max-width: 1140px;
-    margin: auto;
-}
 section{
     margin-top: 130px;
 }
+/* main section */
+main{
+    max-width: 1140px;
+    /* margin: 0 auto; */
+}
 /* about section */
 .about {
-
+    margin-top: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
-    text-align: center;
-
-}
-
-@media screen and (max-width: 576px){
-    .about{
-        background-color: orangered;
-    }
-    
 }
 
 .sectiontitle {
     font-weight: 700;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .bannerdescription {
@@ -116,7 +107,7 @@ section{
     justify-content: space-around;
 }
 
-.anout .infotitle {
+.about .infotitle {
     font-size: 20px;
     color: #757575;
 }
@@ -223,4 +214,21 @@ input{
 
 }
 
+@media screen and (max-width: 576px){
+    .skillscontainer{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+  
+
+    }
+    
+
+@media screen  and (min-width: 577px) and (max-width: 992px) {
+
+    .hide{
+        display: none;
+    }
+    
+}
 
