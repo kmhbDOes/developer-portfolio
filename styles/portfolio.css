@@ -217,14 +217,21 @@ input{
 }
 
 @media screen and (max-width: 576px){
-    .skillscontainer{
+    .hide{
+        display: none;
+    }
+    .skillscontainer, .resumecontent{
         flex-direction: column;
-        margin: 0 auto;
+        padding: 10px 20px;
     }
   
-
+    .skillscontainer{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
     }
-    
+}
+
 
 @media screen  and (min-width: 577px) and (max-width: 992px) {
 
