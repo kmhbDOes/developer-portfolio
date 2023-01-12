@@ -76,11 +76,13 @@ nav li {
 section{
     margin-top: 130px;
 }
+
 /* main section */
 main{
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section */
 .about {
     margin-top: 130px;
@@ -229,6 +231,9 @@ input{
     .hide{
         display: none;
     }
-    
+    .skillscontainer{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
