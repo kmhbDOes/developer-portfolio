@@ -107,6 +107,7 @@ main{
 .aboutinfocontainer {
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 .about .infotitle {
@@ -217,18 +218,36 @@ input{
 }
 
 @media screen and (max-width: 576px){
-    .hide{
-        display: none;
+    .header{
+        background-image: none;
     }
-    .skillscontainer, .resumecontent{
+    nav,
+    .banner, 
+    .skillscontainer, 
+    .resumecontent, 
+    .aboutinfocontainer, 
+    .contact{
         flex-direction: column;
+        gap: 20px;
         padding: 10px 20px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start 
+    }
+    .about, .contact{
+        padding: 20px;
     }
   
     .skillscontainer{
         display: flex;
         flex-direction: column;
         flex: 1;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding: 0 0 0 5px;
     }
 }
 
@@ -238,9 +257,19 @@ input{
     .hide{
         display: none;
     }
-    .skillscontainer{
+    .banner, .skillscontainer, .resumecontent{
         display: flex;
         flex-direction: column;
+        padding: 10px 20px;
     }
+
+    .about, .contact{
+        padding: 20px;
+        gap: 10px;
+    }
+    .contact{
+        /* flex-direction: column; */
+    }
+  
 }
 
