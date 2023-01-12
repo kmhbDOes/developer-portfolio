@@ -241,6 +241,14 @@ input{
         flex-direction: column;
         gap: 20px;
         align-items: flex-start; 
+        padding: 0;
+    }
+    nav li{
+        flex-direction: column;
+        margin-left: 0;
+        gap: 20px;
+        align-items: flex-start;
+        padding-left: 20px;
     }
     .about, .contact{
         padding: 20px;
@@ -259,9 +267,6 @@ input{
 
 @media screen  and (min-width: 577px) and (max-width: 992px) {
 
-    .hide{
-        display: none;
-    }
     .banner, .skillscontainer, .resumecontent{
         display: flex;
         flex-direction: column;
@@ -274,6 +279,11 @@ input{
     }
     .contact{
         /* flex-direction: column; */
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start; 
     }
   
 }
