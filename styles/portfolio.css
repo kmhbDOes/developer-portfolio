@@ -79,7 +79,7 @@ section{
 /* main section */
 main{
     max-width: 1140px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 /* about section */
 .about {
